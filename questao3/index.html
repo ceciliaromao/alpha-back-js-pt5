@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Alpha EdTech</title>
+  </head>
+  <body>
+    <form>
+      <span>IMDB Top 10 Movies</span>
+      <select id="movies">
+        <option value="movie01">The Shawshank Redemption (1994)</option>
+        <option value="movie02">The Godfather (1972)</option>
+        <option value="movie03">The Dark Knight (2008)</option>
+        <option value="movie04">The Godfather Part II (1974)</option>
+        <option value="movie05">12 Angry Men (1957)</option>
+        <option value="movie06">Schindler's List (1993)</option>
+        <option value="movie07">The Lord of the Rings: The Return of the King (2003)</option>
+        <option value="movie08">Pulp Fiction (1994)</option>
+        <option value="movie09">The Lord of the Rings: The Fellowship of the Ring (2001)</option>
+        <option value="movie10">Il buono, il brutto, il cattivo (1966)</option>
+      </select>
+      <div id="submit-ctn">
+        <button id="btn" type="button">Visualizar</button>
+      </div>
+    </form>
+    <div id="result-ctn">
+      <h2 id="h2-result"></h2>
+      <img id="img-result" />
+    </div>
+  </body>
+</html>

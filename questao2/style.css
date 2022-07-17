@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.input-ctn {
+  display: flex;
+  gap: 1vw;
+}
+
+#submit-ctn {
+  width: 30vw;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+#btn {
+  width: 10vw;
+  height: 4vh;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+#result {
+  list-style-type: none;
+  width: 20vw;
+}
+
+#result li {
+  width: 40vw;
+  font-weight: 700;
+  line-height: 3vh;
+}
